@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(./img/watermelon.JPG) no-repeat center ;
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .eyes {
+    position: absolute;
+    top: 20%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+  }
+  .eye {
+    width: 240px;
+    height: 120px;
+    background: #fff;
+    display: inline-block;
+    margin: 40px;
+    border-radius: 60%;
+    position: relative;
+    overflow: hidden;
+  }
+  .ball {
+    width: 80px;
+    height: 80px;
+    background: rgb(6, 93, 19);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+  }
