@@ -1,10 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    background: url(./img/watermelon.JPG) no-repeat center ;
+    background: url(./watermelon.JPG) no-repeat center;
     background-size: cover;
-    padding-top: 10px;
-    padding-bottom: 10px;
   }
   
   .eyes {
